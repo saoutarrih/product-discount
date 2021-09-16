@@ -35,7 +35,6 @@ public class ProductsDiscountsInfo {
 	
 	public ProductsDiscountsInfo(boolean hasProductA, long totalProductsBandC, long totalProductD,
 			List<Discount> listDiscounts) {
-		super();
 		this.hasProductA = hasProductA;
 		this.totalProductsBandC = totalProductsBandC;
 		this.totalProductD = totalProductD;

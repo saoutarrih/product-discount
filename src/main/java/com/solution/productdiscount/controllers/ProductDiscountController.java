@@ -21,7 +21,8 @@ public class ProductDiscountController {
 	@PostMapping("/promotions")
 	public List<Discount> recieveProducts(@RequestBody Payload payload){
 
-		return productDiscountService.calculatePromotions(payload);
+			return productDiscountService.calculatePromotions(payload);
+		
 	}
 
 

@@ -11,7 +11,6 @@ public class Payload {
 	}
 	
 	public Payload(List<Product> products) {
-		super();
 		this.products = products;
 	}
 	
